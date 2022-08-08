@@ -10,4 +10,3 @@ class User(AbstractUser):
     bio = models.TextField()
     zipCode = models.PositiveIntegerField(default=0)
     imageUrl = models.ImageField(upload_to='profile', default='')
-

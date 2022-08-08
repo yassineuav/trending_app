@@ -54,10 +54,9 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost',
-    'http://192.168.136.84',
 ]
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '192.168.136.84']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
